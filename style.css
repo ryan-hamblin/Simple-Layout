@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #A8A19B;
+}
+
+.page-header {
+  border-bottom: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.container {
+  max-width: 1054px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.col-sm-7 {
+  background-color: #9ACC99;
+  float: left;
+  padding: 0 2%;
+}
+
+.col-sm-5 {
+  background-color: #9999CD;
+  float: right;
+  padding: 0 2%;
+}
+
+.row {
+  margin: 0;
+}
+
+.page-header {
+  margin: 0;
+  padding: 0;
+}
+
+.page-header h1 {
+  margin: 0 0;
+  padding: 8px 8px 6px;
+  background-color: #DDDDDD;
+}
+
+.nav {
+  margin: 0;
+  padding: 8px 8px 6px;
+  background-color: #CC9998;
+}
+
+.nav-pills {
+  margin: 0 0;
+}
+
+.nav  li  a {
+  font-weight: bold;
+  padding: 0px 6px;
+  border-radius: 3px;
+  margin: 0;
+}
+
+.nav-pills  li.active  a, .nav-pills  li.active  a:hover, .nav-pills  li.active  a:focus {
+  background-color: #BA7F7D;
+}
+
+/* remove all before and afters*/
+
+ul.nav.nav-pills.nav-left::before {
+  border: 0px x 0px
+}
+
+.container::before {
+  border: 0px x 0px
+}
+
+.active {
+  background-color: #BA7F7D;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-8 {
+    width: 96%;
+    float: left;
+  }
+
+  .col-sm-4 {
+    width: 96%;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+body {
+  font-family: sans-serif;
+  color: black;
+}
+
+a {
+  text-decoration: underline;
+}
